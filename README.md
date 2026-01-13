@@ -3,7 +3,7 @@ High-dimensional datasets often suffer from the "Curse of Dimensionality," conta
 
 This project implements a robust pipeline for Unsupervised Feature Selection and Cluster-Based Feature Reduction. Since real-world data is often unlabeled, this project focuses on extracting the most informative features based purely on the intrinsic mathematical structure of the data.
 
--- 
+
 
 ## Objectives
 The core goal is to transform a "noisy" high-dimensional dataset into a compact, high-value feature set using:
@@ -17,7 +17,7 @@ Cluster-Based Reduction: Grouping similar features and selecting a "representati
 Non-Linear Embedding: Utilizing Autoencoders and t-SNE for advanced visualization and reduction.
 
 
---
+
 
 ## Methodology
 Data Preprocessing: Cleaning missing values and standardizing features.
@@ -34,7 +34,7 @@ Selection Criteria: Choosing the "Best Representative" from each cluster using H
 
 Comparison: Evaluating the reduced dataset against the original structure.
 
---
+
 
 ## Future Scope
 Hybrid Pipelines: Combining unsupervised reduction with supervised validation (LASSO/Random Forest).
